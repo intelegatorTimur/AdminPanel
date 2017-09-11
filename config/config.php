@@ -1,0 +1,14 @@
+<?php
+define('HOST','http://'.$_SERVER['HTTP_HOST'].'/');
+define('ROOT',$_SERVER['DOCUMENT_ROOT'].'/');
+define('INIT',ROOT.'init/');
+define('CONTROLLERS',ROOT.'core/controllers/');
+define('MODELS',ROOT.'core/models/');
+define('FRONT',ROOT.'app/front/');
+define('BACK',ROOT.'app/back/');
+define('HELPERS',ROOT.'core/helpers/');
+define('UPLOADS',ROOT.'uploads/');
+define('VISIBLE',1);
+define('SITEMODE','production');
+define('LOGS',ROOT.'logs/');
+?>

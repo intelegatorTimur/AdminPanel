@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.form{
+    width: 500px;
+    height: 300px;
+    background: #C9DBE9;
+    border-radius: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    margin-left: -250px;
+    margin-top: -150px;
+    border: 1px solid #909090;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 18px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 18px rgba(0,0,0,0.5);
+    padding: 25px;
+}
+.form fieldset{
+    border: 2px dashed #cecece;
+    padding: 15px;
+}
+.form ul{
+    width: 100%;
+    
+}
+.form ul li{
+    width: inherit;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.form input{
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.form button{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(to top,#7AA570,#A0DC94);
+    border: none;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+}
+
+.left_bk{
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    background: black;
+    
+}
+.left_bk .hello_admin{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 100px;
+}
+.left_bk .hello_admin h3{
+    color: white;
+}
+.left_bk .menu_box{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.left_bk .menu_box ul{
+    width: 100%;
+}
+.left_bk .menu_box li{
+    width: 100%;
+    margin-bottom: 3px;
+    border-bottom: 1px solid red;
+    
+}
+.left_bk .menu_box a{
+    display: block;
+    color: white;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+.right_bk{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    padding: 50px;
+    overflow-y: auto;
+}
+.media_monitor{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.media_monitor > div{
+    width: 120px;
+    min-height: 120px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.media_monitor > div img{
+    height: 100px !important;
+    width: auto !important;
+    
+}
+.media_monitor > div > i{
+    font-size: 7em;
+    color: lightblue;
+}
+.media_monitor > div > a{
+    position: absolute;
+    display: block;
+    background: red;
+    color: white;
+    right: 0px;
+    top: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+    
+}
+.media_monitor .lightbox{
+    position: absolute;
+    z-index: 555;
+    width: 95%;
+    padding: 25px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+    
+}
+.media_monitor .lightbox a{
+    display: block;
+    padding: 5px;
+    color: white;
+    background: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.media_monitor #i_back{
+    
+    
+}

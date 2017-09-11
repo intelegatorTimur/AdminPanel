@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="{{css}}css/style.css">
+    <script src="{{js}}js/script.js"></script>
+</head>
+<body>
+   <div class="form">
+   <fieldset>
+   <legend>Autorization</legend>
+    <form method="post" action="/panel/auth/">
+       <ul>
+           <li><input type="text" name="auth_login" placeholder="Login"></li>
+           <li><input type="password" name="auth_password" placeholder="*****"></li>
+           <li><button type="submit" name="auth_submit">Enter</button></li>
+        </ul>
+    </form>
+       </fieldset>
+    </div>
+</body>
+</html>
